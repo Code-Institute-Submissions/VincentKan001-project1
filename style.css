@@ -1,0 +1,176 @@
+.navbar {
+  background-color: black;
+  width: 100%;
+  overflow: auto;
+
+}
+
+.navbar-nav > li{
+  padding-left:70px;
+  padding-right:70px;
+  margin:5px;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row; 
+  
+}
+
+body, html {
+    height: 100%;
+    background-color: grey
+}
+
+
+.hero-image { 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/hero5.jpg");
+  height: 60%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+button {
+  background-color: orangered; 
+  border: none;
+  border-radius: 15px 50px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.container-fluid{
+  background-color: grey;
+  padding: 0;
+}
+
+.container-fluid1{
+  background-color: black;
+  padding:0;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 992px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.btn{
+  background-color: orangered;
+  border: none;
+  border-radius: 15px 50px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+
+input[type=submit] {
+  background-color: orangered;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color:grey;
+  padding: 20px;
+}
+
+.card-text{
+  color:white;
+}
+
+
+.container-fluid2{
+  background-color: none ;
+  margin:10px;
+  padding:0px;
+}
+.footer {
+   position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+   padding:10px;
+   text-decoration: none;
+}
+
+a:link, a:visited {
+  background-color: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: none;
+}
